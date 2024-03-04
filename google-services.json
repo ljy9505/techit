@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "18816691571",
+    "project_id": "techitappand",
+    "storage_bucket": "techitappand.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:18816691571:android:6504188abc86630a8b6906",
+        "android_client_info": {
+          "package_name": "com.leejunyeong.techitappand"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvjgiGGRPi7Mlm2t1f2f6EAefPJesPeeU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,15 +1,29 @@
 {
   "expo": {
+    "plugins": [
+      [
+        "expo-build-properties",
+        {
+          "android": {
+            "compileSdkVersion": 34,
+            "targetSdkVersion": 34,
+            "buildToolsVersion": "34.0.0",
+            "usesCleartextTraffic":true
+          }
+        }
+      ]
+    ],
     "name": "techitappand",
+    "displayName" : "TECHIT",
     "slug": "techitappand",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/splash4.png",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash4.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#ff7710"
     },
     "assetBundlePatterns": [
       "**/*"
@@ -18,13 +32,22 @@
       "supportsTablet": true
     },
     "android": {
+      "permissions":["CAMERA","POST_NOTIFICATIONS","READ_EXTERNAL_STORAGE","WRITE_EXTERNAL_STORAGE","ACCESS_NOTIFICATION_POLICY","VIBRATE","READ_MEDIA_IMAGES"],
+      "googleServicesFile": "./google-services.json",
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "foregroundImage": "./assets/icon.png",
+        "backgroundColor": "#ff7710"
+      },
+      "package": "com.leejunyeong.techitappand",
+      "usesCleartextTraffic":true
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "ab04e77c-c0cc-435d-972d-937954cae2d1"
+      }
     }
   }
 }
